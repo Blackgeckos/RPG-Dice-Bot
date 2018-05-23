@@ -1,0 +1,14 @@
+{
+  "name": "antika",
+  "version": "1.0.0",
+  "description": "Bot permettant de faire des lancées de dés pour les JDR.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LAURAT Arnaud",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
