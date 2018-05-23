@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const Bot = new Discord.Client();
 
+client.login(process.env.BOT_TOKEN);
+
 Bot.login('NDQ4NTk0MjMzMzE0NTA4ODIx.Deb9rw.9TqEyFhs8xtFDkL1gPFUQmSVmUU');
 
 Bot.on('ready', function() {
