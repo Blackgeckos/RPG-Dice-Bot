@@ -1,9 +1,7 @@
 const Discord = require('discord.js');
 const Bot = new Discord.Client();
 
-client.login(process.env.BOT_TOKEN);
-
-Bot.login('NDQ4NTk0MjMzMzE0NTA4ODIx.Deb9rw.9TqEyFhs8xtFDkL1gPFUQmSVmUU');
+Bot.login('NDQ4NTk0MjMzMzE0NTA4ODIx.Dec4rw.Nid6YJ6DpTajhXCLv9KXjvyV4-w');
 
 Bot.on('ready', function() {
     Bot.user.setActivity('Antika').catch(console.error)
@@ -23,6 +21,10 @@ const args = message.content.substring().split(" ");
             var d = Math.floor(Math.random() * args[1] )+1;
             if (!d) return message.reply ("Quel dé dois-je lancer ?");
             message.reply("Résultat du lancé: "+d);
+            break;
+
+        default:
+            message.reply("Je ne connais pas cette commande, désolé");
             break;
     }
 });
