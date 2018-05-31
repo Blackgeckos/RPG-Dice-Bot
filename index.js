@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const Bot = new Discord.Client();
 
-Bot.login('NDQ4NTk0MjMzMzE0NTA4ODIx.Dec4rw.Nid6YJ6DpTajhXCLv9KXjvyV4-w');
+Bot.login('NDQ4NTk0MjMzMzE0NTA4ODIx.DfHaUQ.KZo9UmBmooCT74lmIUd3fEjXcMI');
 
 Bot.on('ready', function() {
     Bot.user.setActivity('Antika').catch(console.error)
