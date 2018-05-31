@@ -23,8 +23,8 @@ const args = message.content.substring().split(" ");
             message.reply("Résultat du lancé: "+d);
             break;
 
-        default:
-            message.reply("Je ne connais pas cette commande, désolé");
-            break;
+        //default:
+            //message.reply("Je ne connais pas cette commande, désolé");
+            //break;
     }
 });
